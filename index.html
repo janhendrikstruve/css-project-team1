@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="page-header h-55 mx-auto">
+      <h1 class="h-55">
+        <img src="images/logo-small.png" alt="" />
+        <span class="sr-only">Work out - Believe in yourself</span>
+      </h1>
+      <nav class="navigation">
+        <img
+          class="align-center hide-desktop"
+          src="images/menu-mobile.png"
+          alt="Show menu"
+        />
+        <ul class="navigation__list" role="list">
+          <li><a class="navigation__item--active" href="#">Exercises</a></li>
+          <li><a class="navigation__item" href="#">Community</a></li>
+          <li><a class="navigation__item" href="#">Pricing</a></li>
+          <li><a class="navigation__item" href="#">About us</a></li>
+          <li><a class="navigation__item--login" href="#">Login</a></li>
+          <li><a class="navigation__item--sign-in" href="#">Sign in</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="mx-auto hero">
+        <picture>
+          <source
+            srcset="images/hero-section-woman-large.png"
+            media="(min-width: 640px)"
+          />
+          <img
+            class="hero__image"
+            src="images/hero-section-woman-small.png"
+            alt=""
+          />
+        </picture>
+        <section class="order-66 hero__intro">
+          <h2 class="hero__title two-columns">
+            4 week<span class="hero__subtitle">workout plan</span>
+          </h2>
+          <p class="hero__text two-columns">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+            fringilla, lacus eget consequat tincidunt, lectus ex bibendum
+            libero, eget iaculis quam arcu quis mauris. Donec ex neque, egestas
+            in faucibus. Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Maecenas
+          </p>
+          <a class="button hero__button" href="#">Try for free</a
+          ><a class="button hero__button hide-mobile" href="#">Try for free</a>
+        </section>
+        <section class="hero__info hide-mobile">
+          <div class="hero__info-box hide-mobile">
+            <span class="hero__info-title">Get inspired</span>
+            <p class="hero__info-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+              fringil. lacus eget consequat tincidunt, lectus ex.
+            </p>
+            <a class="hero__info-link" href="#"
+              ><span
+                ><img
+                  class="hero__info-link-image"
+                  src="images/hero-arrow.png"
+                  alt=""
+                />Explore more</span
+              ></a
+            >
+          </div>
+          <div class="hero__info-box hide-mobile">
+            <span class="hero__info-title">Challenge yourself</span>
+            <p class="hero__info-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+              fringil. lacus eget consequat tincidunt, lectus ex.
+            </p>
+            <a class="hero__info-link" href="#"
+              ><span
+                ><img
+                  class="hero__info-link-image"
+                  src="images/hero-arrow.png"
+                  alt=""
+                />Explore more</span
+              ></a
+            >
+          </div>
+        </section>
+      </section>
+      <section class="training">
+        <h2 class="training__title">latest training</h2>
+        <section class="training__teaser">
+          <a class="training__teaser--link" href="#">
+            <img
+              class="training__image"
+              src="images/training-running.png"
+              alt=""
+            />
+            <span class="training__image-title">running</span>
+            <span class="hide-mobile training__teaser-text"
+              >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+              fringilla, lacus eget consequat
+            </span>
+            <span class="button mwidth-100 hide-mobile">See more</span>
+          </a>
+        </section>
+        <section class="training__teaser">
+          <a class="training__teaser--link" href="#">
+            <img
+              class="training__image"
+              src="images/training-lifting.png"
+              alt=""
+            />
+            <span class="training__image-title">Lifting</span>
+            <span class="training__teaser-text hide-mobile"
+              >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+              fringilla, lacus eget consequat
+            </span>
+            <span class="button mwidth-100 hide-mobile">See more</span>
+          </a>
+        </section>
+        <section class="training__teaser">
+          <a class="training__teaser--link" href="#">
+            <img
+              class="training__image"
+              src="images/training-yoga.png"
+              alt=""
+            />
+            <span class="training__image-title">yoga</span>
+            <span class="training__teaser-text hide-mobile"
+              >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+              fringilla, lacus eget consequat
+            </span>
+            <span class="button mwidth-100 hide-mobile">See more</span>
+          </a>
+        </section>
+        <a class="button hide-desktop" href="#">See more</a>
+        <a class="training__link-category hide-mobile" href="#">See more</a>
+      </section>
+      <section class="team">
+        <h2 class="team__heading">our team</h2>
+        <ul class="team__list" role="list">
+          <li class="team__list-item">
+            <picture>
+              <source srcset="images/man-ball.png" media="(min-width: 640px)" />
+              <img
+                class="team__picture"
+                src="images/man-ball-small.png"
+                alt="Image of Jamies"
+              />
+            </picture>
+            <div class="team__card-text">
+              <h3>JAMIES FORD</h3>
+              <span class="hide-mobile">Trainer</span>
+              <p class="hide-mobile">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+                maxime unde tenetur officia?
+              </p>
+              <a class="button team__button hide-mobile" href="#">SEE MORE</a>
+            </div>
+          </li>
+          <li class="team__list-item">
+            <picture>
+              <source
+                srcset="images/man-muscle.png"
+                media="(min-width: 640px)"
+              />
+              <img
+                class="team__picture"
+                src="images/man-muscle-small.png"
+                alt="Image of Eddie"
+              />
+            </picture>
+            <div class="team__card-text">
+              <h3>EDDIE SMITH</h3>
+              <span class="hide-mobile">Trainer</span>
+              <p class="hide-mobile">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+                maxime unde tenetur officia?
+              </p>
+              <a class="button team__button hide-mobile" href="#">SEE MORE</a>
+            </div>
+          </li>
+          <li class="team__list-item">
+            <picture>
+              <source
+                srcset="images/woman-muscle.png"
+                media="(min-width: 640px)"
+              />
+              <img
+                class="team__picture"
+                src="images/woman-muscle-small.png"
+                alt="Image  of Annie"
+              />
+            </picture>
+            <div class="team__card-text">
+              <h3>ANNIE SUMMER</h3>
+              <span class="hide-mobile">Trainer</span>
+              <p class="hide-mobile">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+                maxime unde tenetur officia?
+              </p>
+              <a class="button team__button hide-mobile" href="#">SEE MORE</a>
+            </div>
+          </li>
+          <li class="team__list-item">
+            <picture>
+              <source
+                srcset="images/woman-posing.png"
+                media="(min-width: 640px)" />
+              <img
+                class="team__picture"
+                src="images/woman-posing-small.png"
+                alt="Image of Emily"
+            /></picture>
+            <div class="team__card-text">
+              <h3>EMILY SEA</h3>
+              <span class="hide-mobile">Trainer</span>
+              <p class="hide-mobile">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+                maxime unde tenetur officia?
+              </p>
+              <a class="button team__button hide-mobile" href="#">SEE MORE</a>
+            </div>
+          </li>
+        </ul>
+        <a class="button team__button mx-auto hide-desktop" href="">SEE MORE</a>
+      </section>
+      <section class="redirection">
+        <h2 class="redirection__heading">discover your potential</h2>
+        <p class="redirection__paragraph">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique
+          dolore modi est quis!
+        </p>
+        <a class="button redirection__button--pink" href="">VIEW PLANS</a>
+        <a class="button-black redirection__button--black" href=""
+          >LEARN MORE</a
+        >
+      </section>
+    </main>
+    <footer>
+      <section class="footer__redirect">
+        <ul class="redirect__sections rm-list-style" role="list">
+          <li>
+            <img src="images/logo-small.png" alt="" />
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta
+              labore illo eveniet totam!
+            </p>
+            <ul class="redirect__social rm-list-style" role="list">
+              <li>
+                <a href="">
+                  <img src="images/facebook-logo.png" alt="Facebook" />
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="images/insta-logo.png" alt="Instagram" />
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="images/twitter-logo.png" alt="Twitter" />
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="images/whatsapp-logo.png" alt="Whatsapp" />
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <h3>INFO</h3>
+            <a href="">About</a>
+            <a href="">Careers</a>
+            <a href="">Press</a>
+            <a href="">Product updates</a>
+          </li>
+          <li>
+            <h3>GET IN TOUCH</h3>
+            <a href="">About us</a>
+            <a href="">Support</a>
+            <a href="">Contact us</a>
+          </li>
+          <li>
+            <h3 id="newsletter-heading">SUBSCRIBE TO OUR NEWSLETTER</h3>
+            <form action="" aria-labelledby="newsletter-heading">
+              <label for=""></label>
+              <input type="email" placeholder="Type Your Email Here" />
+              <input class="button" type="submit" value="subscribe" />
+            </form>
+          </li>
+        </ul>
+      </section>
+      <section class="legal">
+        <span class="legal__copyright"
+          >Copyright © 2021 Enisson Lemos | All right reserved</span
+        ><br />
+        <a class="legal__terms" href="#">Terms & Conditions</a>
+      </section>
+    </footer>
+  </body>
+</html>

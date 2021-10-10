@@ -1,0 +1,75 @@
+.team {
+  display: grid;
+}
+
+.team__heading {
+  text-transform: uppercase;
+  color: white;
+  font-weight: 700;
+  font-size: 1.625rem;
+  line-height: 39px;
+  padding-bottom: 5px;
+  border-bottom: 5px #59253e solid;
+  text-align: center;
+}
+
+.team__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  list-style-type: none;
+}
+.team__picture {
+  border-radius: 20px;
+}
+
+.team__list-item {
+  color: #e5e5e5;
+  font-style: italic;
+  font-weight: 700;
+  text-align: center;
+}
+
+@media screen and (min-width: 640px) {
+  .team__list {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+  }
+
+  .team__card-text {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .team__list-item {
+    background-color: #f2f2f2;
+  }
+
+  .team__list-item h3 {
+    color: #0d0d0d;
+    font-style: italic;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 0;
+  }
+
+  .team__list-item span {
+    color: #332f3c;
+    font-style: italic;
+    font-weight: 700;
+    text-align: left;
+  }
+
+  .team__list-item p {
+    color: #0d0d0d5c;
+    font-weight: 400;
+  }
+
+  .team__button {
+    align-self: flex-end;
+  }
+
+  .team__picture {
+    border-radius: 0;
+    margin: 0;
+  }
+}

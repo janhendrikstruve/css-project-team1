@@ -1,0 +1,77 @@
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.h-55 {
+  height: 55px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.button {
+  color: #ffffff;
+  background-color: #f24b88;
+  text-align: center;
+  border-radius: 10px;
+  text-decoration: none;
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: 0.813rem;
+  font-weight: bold;
+}
+
+.button-black {
+  color: #ffffff;
+  background-color: #1f1c26;
+  text-align: center;
+  border-radius: 10px;
+  text-decoration: none;
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: 0.813rem;
+  font-weight: bold;
+}
+
+.order-66 {
+  execute: jedi-all;
+  order: -1;
+  align-self: flex-start;
+}
+
+
+.mwidth-100 {
+  max-width: 100px;
+}
+
+.rm-list-style[role=list] {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (min-width: 640px) {
+  .hide-desktop {
+    display: none;
+  }
+  
+  .two-columns {
+    grid-column-start: span 2;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .hide-mobile {
+    display: none;
+  }
+}
